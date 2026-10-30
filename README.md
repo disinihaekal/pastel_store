@@ -1,17 +1,47 @@
-# pastel_store
+## Video Penjelasan
+https://youtu.be/wSnQr5UFxbA?si=GRzsF9zovBZwoIxS
 
-A new Flutter project.
+# Pastel Store
 
-## Getting Started
+Pastel Store adalah aplikasi katalog produk berbasis Flutter yang menggunakan DummyJSON API sebagai sumber data produk.
 
-This project is a starting point for a Flutter application.
+## Fitur
 
-A few resources to get you started if this is your first Flutter project:
+- Menampilkan seluruh daftar produk dari DummyJSON API.
+- Menampilkan gambar, nama, harga, dan rating produk.
+- Searching.
+- Detail produk.
+- Informasi harga, stok, rating, kategori, dan deskripsi produk.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Komponen
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter
+- Dart
+- DummyJSON API
+- HTTP Package
+- Visual Studio Code
+
+## API
+
+Sumber data produk menggunakan DummyJSON:
+
+https://dummyjson.com/docs/products
+
+Endpoint yang digunakan:
+
+- Seluruh produk: `https://dummyjson.com/products?limit=0`
+- Detail produk: `https://dummyjson.com/products/{id}`
+- Pencarian produk: `https://dummyjson.com/products/search?q={query}`
+
+## Cara Menjalankan Aplikasi
+
+1. Clone repository.
+2. Buka folder project.
+3. Jalankan :
+
+   `flutter pub get`
+
+4. Hubungkan Android.
+5. Jalankan :
+
+   `flutter run`
